@@ -1,0 +1,25 @@
+# --- Identity ---
+id: "8da89715-ae67-4138-b222-b44a20c4e8d6"
+name: "structure-requirements"
+display_name: "Structure Requirements"
+description: "Organises raw requirements into a structured, prioritised hierarchy"
+version: "1.0.0"
+engine: ">=0.1.0"
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/hub-shared-structure-requirements"
+category: "shared"
+tags:
+  - "shared"
+  - "prompt"
+contents:
+  skills: 0
+  prompts: 1
+  workflows: 0
+  services: 0
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 1

@@ -1,9 +1,9 @@
 # --- Identity ---
-id: "8da89715-ae67-4138-b222-b44a20c4e8d6"
+id: "66b5f5c8-6a3e-452b-9c99-c8317c06d8e0"
 name: "structure-requirements"
 display_name: "Structure Requirements"
 description: "Organises raw requirements into a structured, prioritised hierarchy"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"

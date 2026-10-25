@@ -2,8 +2,13 @@
 type: prompt
 id: structure-requirements
 title: "Structure Requirements"
-description: "Organises raw requirements into a structured, prioritised hierarchy"
+description: "Organizes raw requirements into a structured, prioritized hierarchy"
 tags: [Production, Product]
+context_params:
+  source:
+    label: "Raw Requirements"
+    description: "The raw Requirements supplied by the upstream step."
+    required: true
 
 metadata:
   output_format: markdown
@@ -16,18 +21,18 @@ Drives the requirements structuring skill.
 
 ## Prompt
 
-You are a requirements engineer. Organise the raw requirements below into a structured hierarchy.
+You are a requirements engineer. Organize the raw requirements below into a structured hierarchy.
 
 ### Raw Requirements
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Instructions
 
 1. **Extract** — identify every requirement (explicit, implicit, and derived) from the input
-2. **Categorise** — assign each to: Functional, Performance, Security, Accessibility, Scalability, Compliance, or Usability
-3. **Organise** — group into a hierarchy: Epic > Feature > Requirement
-4. **Prioritise** — assign MoSCoW priority: Must have, Should have, Could have, Won't have (this time)
+2. **Categorize** — assign each to: Functional, Performance, Security, Accessibility, Scalability, Compliance, or Usability
+3. **Organize** — group into a hierarchy: Epic > Feature > Requirement
+4. **Prioritize** — assign MoSCoW priority: Must have, Should have, Could have, Won't have (this time)
 5. **Map dependencies** — note which requirements depend on others
 
 ### Output Format

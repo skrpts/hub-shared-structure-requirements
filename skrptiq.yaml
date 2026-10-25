@@ -2,8 +2,8 @@
 id: "66b5f5c8-6a3e-452b-9c99-c8317c06d8e0"
 name: "structure-requirements"
 display_name: "Structure Requirements"
-description: "Organises raw requirements into a structured, prioritised hierarchy"
-version: "1.0.2"
+description: "Organizes raw requirements into a structured, prioritized hierarchy"
+version: "1.0.3"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -25,3 +25,17 @@ contents:
   documents: 0
   assets: 0
   total: 1
+
+security:
+  status: "pass"
+  scanned_at: "2026-10-25T16:50:00.557Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: []
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/structure-requirements/security"
